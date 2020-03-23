@@ -9,7 +9,7 @@ which provides a simple GUI for connecting to and viewing the stream retrieved f
 4. On the client computer, run the streamView.py module.
 5. Enter the IP address of your RaspberryPi video server and click 'Connect'.
 
-Alternatively, you can simply open a browser after launching the http server on your Pi and type: http://[Pi IP address]:[Pi http server port]/ into the navbar.
+Alternatively, you can simply open a browser after launching the http server on your Pi and type: http://[Pi IP address]:[Pi http server port]/ into the navbar (default port is 8000).
 
 ## Dependencies
 ### Server (stream.py)
