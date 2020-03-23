@@ -166,10 +166,9 @@ class MainWindow(QtWidgets.QMainWindow, Ui_MainWindow):
             os.mkdir('snaps')
         # Increment image names in sequence
         i = 1
-        while os.path.exists(os.path.join('snaps', 'snap{}.png'.format(i))):
+        while os.path.exists(os.path.join('snaps', 'snap_{}.png'.format(i))):
             i += 1 
-        filename = os.path.join('snaps', 'snap{}.png'.format(i))
-        self.pixmap.save(filename, 'png')
+        self.pixmap.save(os.path.join('snaps', 'snap_{}.png'.format(i)), 'png')
         
 if __name__ == '__main__':
         app = QtWidgets.QApplication(sys.argv)
