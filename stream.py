@@ -1,5 +1,5 @@
-# Author: Luke Charbonneau, 2019
-# Released under the GPL-3.0 license
+# @author: Luke Charbonneau, 2019
+# @license GPL-3.0
 
 import sys
 import argparse

@@ -1,5 +1,5 @@
-# Author: Luke Charbonneau, 2019
-# Released under the GPL-3.0 license
+# @author: Luke Charbonneau
+# @license GPL-3.0
 # Github Repo: https://github.com/lukechar/Pi-Video-Stream
 
 import cv2
